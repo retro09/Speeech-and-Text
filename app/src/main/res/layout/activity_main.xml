@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="129dp"
+        android:layout_marginBottom="130dp"
         android:text="Voice to text"
         android:textColor="@color/black"
         android:textSize="24dp">
