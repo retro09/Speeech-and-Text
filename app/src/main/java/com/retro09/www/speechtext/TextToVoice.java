@@ -42,7 +42,15 @@ public class TextToVoice extends AppCompatActivity {
             @Override
             public void onInit(int status) {
                 if(status != TextToSpeech.ERROR){
-                    textToSpeech.setLanguage(Locale.ENGLISH);
+                    //textToSpeech.setLanguage(Locale.ENGLISH);
+                    textToSpeech.setLanguage(new Locale("en"));     //for ENGLISH
+                    textToSpeech.setLanguage(new Locale("hi"));     //for HINDI
+//                    textToSpeech.setLanguage(new Locale("zh"));     for Chinese NOT WORKING
+//                    textToSpeech.setLanguage(new Locale("ja"));     for Japanese NOT WORKING
+                    textToSpeech.setLanguage(new Locale("te"));     //for Telugu
+//                    textToSpeech.setLanguage(new Locale("pa"));     for Punjabi NOT WORKING
+                    textToSpeech.setLanguage(new Locale("ru"));     //for Russia
+
                 }
             }
         });
